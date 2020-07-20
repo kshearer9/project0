@@ -4,7 +4,7 @@
     <title>Ficus Ginseng</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 500px)"href="navbar.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 500px)" href="navbar.css">
     <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 500px)" href="mobile_navbar.css" />
     <link rel="stylesheet" type="text/css" href="plantpages.css">
     <style>
@@ -17,6 +17,25 @@
       @media screen and (max-width:769px) {
         .main {margin-left:initial;}
         .title {font-size:40px;}
+        .title2 {font-size:25px;}
+        .paragraph.border-top.border-secondary {font-size:15px;}
+      }
+      .video-container {
+        position:relative;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:10px;
+        margin-bottom:10px;
+        width:88%;
+        height:0;
+        padding-bottom:49.5%;
+      }
+      .vid {
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%
       }
     </style>
   </head>
@@ -32,22 +51,23 @@
     </div>
     <div class="d-none d-sm-none d-md-block" id="sidebar">
       <ul>
+        <li><a href="#title">&uarr;</a></li>
         <li><a href="#light">Light</a></li>
         <li><a href="#watering">Watering</a></li>
         <li><a href="#pruning">Pruning & Cleaning</a></li>
-        <li><a href="#temperature">Temperature & Humidity</a></li>
+        <li><a href="#humidity">Humidity</a></li>
         <li><a href="#fertilising">Fertilising</a></li>
         <li><a href="#repotting">Repotting</a></li>
         <li><a href="quiz.html">Quiz</a></li>
       </ul>
     </div>
     <div class="main">
-      <div class="title">
+      <div class="title" id="title">
         <span></span>
       </div>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm" id="light">
+          <div class="col" id="light">
             <span class="title2">
               Light
             </span>
@@ -57,7 +77,7 @@
               careful to not let it get too draughty.
             </p>
           </div>
-          <div class="col-sm" id="watering">
+          <div class="col" id="watering">
             <span class="title2">
               Watering
             </span>
@@ -65,6 +85,67 @@
               Water Generously when the soil dries. This should be
               around once a week usually, but less in Winter.
             </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col" id="pruning">
+            <span class="title2">
+              Pruning & Cleaning
+            </span>
+            <p class ="paragraph border-top border-secondary">
+              To keep your bonsai small, pruning is required. Snip new shoots
+              off as they appear to retain the tree’s shape. Pruning your bonsai
+              regularly will trigger it to branch out more and foliage will
+              grow more dense and beautiful but make sure to only prune during
+              periods of active growth. As a rough guide, prune back to 2 leaves
+              after 6-8 have grown. If the leaves of your bonsai tree get
+              dusty, they can block sunlight which will stunt growth, so wipe
+              the leaves often with a damp cloth.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col" id="humidity">
+            <span class="title2">
+              Humidity
+            </span>
+            <p class="paragraph border-top border-secondary">
+              Ficus ginseng bonsais love humid climates so mist the leaves with
+              water every day if possible. If you want your bonsai to grow
+              aerial roots that will reach the ground, you must do this to keep
+              the air constantly moist.
+            </p>
+          </div>
+          <div class="col" id="fertilising">
+            <span class="title2">
+              Fertilising your Bonsai
+            </span>
+            <p class="paragraph border-top border-secondary">
+              Fertilise every 1 or 2 weeks in summer and 2 to 4 weeks in winter
+              (if the growth doesn’t stop). Liquid fertiliser or pellets can be
+              used.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col" id="repotting">
+            <span class="title2">
+              Repotting
+            </span>
+            <div class="paragraph border-top border-secondary">
+              Repot every 2 years in Spring, using a bonsai soil.
+              <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/ptSmG2cLCJ0"
+                frameborder="0" allowfullscreen class="vid"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col" id="quiz">
+            <span class="title2">
+              Quiz!
+            </span>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 .main {
   margin-left:200px;
+  margin-bottom:50px;
 }
 
 .title {
@@ -7,11 +8,16 @@
   background-color:#333;
   font-size:70px;
   color:white;
-  font-family:Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-family:Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu
+  Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 }
 .title2 {
-  font-size:30px;
+  font-size:45px;
   font-weight:bold;
   color:#333;
-  font-family:Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-family:Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu
+  Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+}
+.paragraph.border-top.border-secondary {
+  font-size:20px;
 }

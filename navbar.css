@@ -8,6 +8,7 @@
   bottom:0;
   width:100%;
   z-index:1;
+  background-color:white;
 }
 
 #navbar li {
@@ -42,7 +43,7 @@
 }
 
 #sidebar li a {
-  padding: 12px 8px 6px 12px;
+  padding: 12px 8px 6px;
   text-decoration:none;
   color:black;
   display:block;
